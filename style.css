@@ -1,0 +1,213 @@
+.header {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.container1 {
+  width: 30%;
+}
+
+.container2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.container2 li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+}
+
+.container3 {
+  width: 30%;
+  text-align: right;
+}
+
+.image {
+  width: auto;
+  height: 50px;
+  margin: auto;
+}
+
+button {
+  margin-left: 10px;
+  border: radius 30px;
+  border: radius 20px;
+}
+
+.btn1 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(235, 230, 230);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: black;
+}
+
+.btn2 {
+  background-color: rgb(253, 0, 0);
+  color: rgb(235, 230, 230);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: black;
+}
+
+.container4 img {
+  width: 100%;
+  height: auto;
+}
+
+.section1 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+  
+  .text {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+.uppert {
+  color: rgb(209, 23, 23);
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  text-align: justify;
+}
+
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 1px;
+}
+
+.btnimg1,
+.btnimg2,
+.btnimg3 {
+  margin: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.bt1,
+.bt2,
+.bt3 {
+  background-color: rgb(160, 4, 4);
+  color: rgb(235, 230, 230);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: black;
+}
+
+.section3 {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.textsec3 {
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.section4{
+  display: flex;
+  justify-content: space-around;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+
+.section5{
+  display: flex;
+  justify-content: space-around;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.section6{
+  display: flex;
+  justify-content: space-around;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.footer{
+  background-color: rgb(16, 15, 15);
+  display: flex;
+  justify-content: center;
+  padding: 50px 40px 150px 50px;
+  color: white;
+  gap: 50px;
+  font-size: 12px;
+  line-height: 20px;
+  ;
+  
+}
+.intro{
+  width: 300px;
+}
+
+.footer_image{
+  width: 120px;
+  height: 50px;
+
+}
+.footer_end{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(197, 195, 195);
+  background-color:black;
+  color: white;
+font-size: 9px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.navbar_footer >ul{
+  list-style: none;
+  line-height: 30px;
+  width: 100px;
+}
+
+.contact{
+  width: 200px;
+}
+.follow{
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+.follow>div{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 70px
+}
